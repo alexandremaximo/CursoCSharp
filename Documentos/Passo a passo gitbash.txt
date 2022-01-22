@@ -20,4 +20,4 @@ Sequencia de comandos Git
 7º Se já tiver repositório no Github
 	7.1 git remote add origin git@github.com:alexandremaximo/DevSuperior.git
 	7.2 git branch -M main
-	7.3 git push -u origin main
+	7.3 git push -u origin main 
