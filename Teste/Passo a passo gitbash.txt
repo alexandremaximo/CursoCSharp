@@ -1,0 +1,23 @@
+Sequencia de comandos Git
+
+1º git init - criar o repositório
+2º git config --global user.name "Alexandre Maximo" - cria um nome de usuário
+3º git config --global user.email "alexandre.maximoms@gmail.com" - Vincula com sua conta
+4º git add . - Prepara os arquivos para subir para o Git.
+5º git commit -m "Texto sobre o que você fez"
+6º Se ainda não estiver vinculado a nenhum projeto do github:
+ 6.1 Crie o projeto no github
+ 6.2 pegue o comando que o github vai fornecer:
+     git remote add origin https://github.com/alexandremaximo/basico.git
+ 6.3 se precisar fazer autenticação com chave SSH:
+	ssh-keygen -t ed25519 -C "alexandre.maximoms@gmail.com"
+	6.3.4 vá até o github e configure a chave ssh
+	6.3.5 volte no git bash e execute o comando:
+	git remote set-url origin git@github.com:alexandremaximo/basico.git
+	Esse comando altera a url HTTPS para SSH.
+
+ 6.4 git push -u origin main
+7º Se já tiver repositório no Github
+	7.1 git remote add origin git@github.com:alexandremaximo/DevSuperior.git
+	7.2 git branch -M main
+	7.3 git push -u origin main
