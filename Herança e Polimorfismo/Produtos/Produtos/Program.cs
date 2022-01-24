@@ -5,7 +5,7 @@ using Produtos.Entities;
 List<Product> list = new List<Product>();
 
 Console.Write("Enter the number of products: ");
-int numProd = int.Parse(Console.ReadLine());
+int numProd = int.Parse(Console.ReadLine()); 
 
 for (int i = 1; i <= numProd; i++)
 {
