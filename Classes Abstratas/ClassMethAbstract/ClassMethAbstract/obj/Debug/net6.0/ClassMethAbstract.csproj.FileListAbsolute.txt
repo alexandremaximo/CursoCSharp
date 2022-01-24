@@ -1,0 +1,15 @@
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\bin\Debug\net6.0\ClassMethAbstract.exe
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\bin\Debug\net6.0\ClassMethAbstract.deps.json
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\bin\Debug\net6.0\ClassMethAbstract.runtimeconfig.json
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\bin\Debug\net6.0\ClassMethAbstract.dll
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\bin\Debug\net6.0\ref\ClassMethAbstract.dll
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\bin\Debug\net6.0\ClassMethAbstract.pdb
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.csproj.AssemblyReference.cache
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.AssemblyInfoInputs.cache
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.AssemblyInfo.cs
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.csproj.CoreCompileInputs.cache
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.dll
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ref\ClassMethAbstract.dll
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.pdb
+C:\Curso C#\Intermediário\Classes Abstratas\ClassMethAbstract\ClassMethAbstract\obj\Debug\net6.0\ClassMethAbstract.genruntimeconfig.cache
