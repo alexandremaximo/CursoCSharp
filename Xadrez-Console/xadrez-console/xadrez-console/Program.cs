@@ -1,5 +1,14 @@
-﻿using Tabuleiro;
+﻿using tabuleiro;
 
-Posicao P = new Posicao(3, 4);
+namespace tabuleiro
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
-Console.WriteLine("Posição: "+P);
+            Console.WriteLine("Posição: "+tab);
+        }
+    }
+}
