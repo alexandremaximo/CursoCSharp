@@ -6,22 +6,37 @@ namespace xadrez_console
     {
         public static void imprimirTabuleiro(Tabuleiro tab)
         {
-            for (int l = 0; l < tab.linha; l++)
+            for (int l = 0; l < tab.linhas; l++)
             {
-                for (int c = 0; c < tab.colunas; c++)
+                if (l == 0)
                 {
-                    if (tab.peca(l, c) == null)
+                    Console.Write("x ");
+                }
+                else
+                {
+                    Console.Write(l.ToString() + " ");
+                }
+                for (int c = 1; c < tab.colunas; c++)
+                {
+                    if (l == 0)
                     {
-                        Console.Write("- ");
+                        Console.Write(c.ToString() + " ");
                     }
                     else
                     {
-                        Console.WriteLine(tab.peca(l, c) + " ");
+                        if (tab.peca(l, c) == null)
+                        {
+                            Console.Write("- ");
+                        }
+                        else
+                        {
+                            Console.Write(tab.peca(l, c) + " ");
+                        }
                     }
                 }
                 Console.WriteLine();
             }
-            
+
         }
     }
 }
