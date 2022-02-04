@@ -8,10 +8,6 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            //PosicaoXadrez pos = new PosicaoXadrez('c', 7);
-            //Console.WriteLine(pos);
-            //Console.WriteLine(pos.toPosicao());
-
             try
             {
                 PartidaDeXadrez partida = new PartidaDeXadrez();
@@ -45,11 +41,8 @@ namespace xadrez_console
                         Console.ReadLine();
                     }
                 }
-                //Tabuleiro tab = new Tabuleiro(8, 8);
-                //tab.colocarPecas(new Torre(Cor.Preta, tab), new Posicao(1, 1));
-                //tab.colocarPecas(new Torre(Cor.Preta, tab), new Posicao(1, 3));
-                //tab.colocarPecas(new Rei(Cor.Branca, tab), new Posicao(5, 7));
-                //Tela.imprimirTabuleiro(tab);
+                Console.Clear();
+                Tela.imprimirPartida(partida);
             }
             catch (TabuleiroException e)
             {
@@ -57,5 +50,6 @@ namespace xadrez_console
             }
 
         }
+       
     }
 }
