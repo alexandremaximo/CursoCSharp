@@ -11,5 +11,9 @@ namespace xadrez
         {
             return "B";
         }
+        public override bool[,] movimentosPossiveis()
+        {
+            return null;
+        }
     }
 }
